@@ -1,0 +1,68 @@
+PROJECT TITLE: Used Car Price Prediction – Machine Learning Solution
+
+
+BUSINESS CONTEXT:
+Online automobile resale platforms such as CarDekho host thousands of used car listings.
+Pricing vehicles accurately is a major challenge due to multiple influencing factors such as
+brand value, vehicle age, engine capacity, power, mileage, fuel type, and market demand.
+
+Incorrect pricing can lead to:
+
+• Delayed sales due to overpriced listings
+• Revenue loss due to underpricing
+• Reduced customer trust
+• Poor buyer-seller matching efficiency
+
+
+BUSINESS PROBLEM:
+How can we build a data-driven pricing model that accurately predicts the
+resale value of a used car based on its specifications and historical listing data?
+
+
+OBJECTIVE:
+Develop a machine learning regression model that predicts the selling price
+of used cars using structured vehicle attributes.
+
+The model should:
+
+• Capture non-linear relationships between features
+• Minimize prediction error
+• Generalize well to unseen car listings
+• Be deployable in a real-world environment
+
+
+SUCCESS METRICS:
+
+• High R² Score on test dataset
+• Low Mean Absolute Error (MAE)
+• Low Root Mean Squared Error (RMSE)
+• Minimal overfitting (small train-test performance gap)
+
+
+BUSINESS VALUE:
+
+The deployed model can:
+
+• Assist sellers in setting competitive prices
+• Help buyers evaluate fair market value
+• Improve platform pricing transparency
+• Increase transaction efficiency
+• Enhance user trust and engagement
+
+
+SOLUTION APPROACH:
+
+1. Data Cleaning & Preprocessing
+2. Correlation Analysis
+3. Feature Engineering
+4. Hybrid Encoding Strategy (Target Encoding + One-Hot Encoding)
+5. Model Training & Comparison
+6. Final Model Selection (Random Forest Regressor)
+7. Deployment using Streamlit
+
+
+FINAL OUTCOME:
+
+A production-ready machine learning pipeline capable of predicting
+used car resale prices with strong generalization performance
+and real-time deployment capability.

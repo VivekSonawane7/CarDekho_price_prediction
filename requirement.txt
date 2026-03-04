@@ -1,0 +1,15 @@
+# Core Libraries
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+category-encoders
+joblib
+
+# Visualization (Notebook)
+matplotlib
+seaborn
+
+# Web App
+streamlit
